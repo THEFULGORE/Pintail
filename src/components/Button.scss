@@ -1,0 +1,24 @@
+.active {
+	background-color: #ddd92a;
+	color: #2d2a32;
+	transition: color 0.3s;
+	&:hover {
+		color: white;
+	}
+}
+
+button {
+	background-color: transparent;
+	width: 2.75rem;
+	padding: 0.25rem 0 0 0;
+	border-radius: 5px;
+	margin: 0.25rem 0;
+	border: none;
+	cursor: pointer;
+	transition: color 0.3s;
+	color: #2d2a32;
+	&:hover {
+		background-color: #ddd92a;
+		color: white;
+	}
+}

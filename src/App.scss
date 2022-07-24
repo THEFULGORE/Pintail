@@ -1,0 +1,93 @@
+.App {
+	text-align: center;
+}
+
+.textarea {
+	font: 24px serif;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	resize: none;
+	background: transparent;
+	&:focus {
+		outline: 1px dashed #2d2a32;
+	}
+}
+
+.sideToolsMenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0 0.5rem;
+	margin-top: 2px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 3px rgb(150, 150, 150);
+	z-index: 10;
+	button {
+		background-color: rgb(220, 220, 220);
+		&:hover {
+			background-color: rgb(201, 201, 201);
+		}
+	}
+	&__input {
+		display: flex;
+		align-items: center;
+	}
+	input[type='text'] {
+		width: 5rem;
+	}
+}
+
+.hide-show-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 2px;
+	width: 6rem;
+	padding: 0.25rem 0;
+	background-color: rgb(220, 220, 220);
+	z-index: 13;
+	&:hover {
+		background-color: rgb(201, 201, 201);
+	}
+}
+
+.toolsMenu {
+	display: flex;
+	gap: 0.5rem;
+	padding: 0 0.5rem;
+	margin-top: 2px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 3px rgb(150, 150, 150);
+	&__wrapper {
+		position: absolute;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		height: 2.75rem;
+	}
+}
+
+.bottomTools {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-radius: 6px;
+	display: flex;
+	gap: 0.5rem;
+	padding: 0 0.5rem;
+	margin-top: 2px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 3px rgb(150, 150, 150);
+	z-index: 10;
+}
+
+.bx {
+	font-size: 1.75rem;
+}

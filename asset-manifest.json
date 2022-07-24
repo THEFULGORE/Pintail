@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pintail/static/css/main.06a5384b.css",
+    "main.js": "/Pintail/static/js/main.bb56a450.js",
+    "index.html": "/Pintail/index.html",
+    "main.06a5384b.css.map": "/Pintail/static/css/main.06a5384b.css.map",
+    "main.bb56a450.js.map": "/Pintail/static/js/main.bb56a450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a5384b.css",
+    "static/js/main.bb56a450.js"
+  ]
+}
